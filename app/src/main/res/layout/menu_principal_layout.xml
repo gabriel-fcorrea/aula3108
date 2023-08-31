@@ -13,6 +13,8 @@
         android:clickable="true"
         android:focusable="true"
         android:checkable="true"
-        android:id="@+id/"
+        android:id="@+id/cardAeroModelos">
+
+    </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
