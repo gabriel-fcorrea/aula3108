@@ -25,13 +25,44 @@
         android:clickable="true"
         android:focusable="true">
 
-        <ImageView
-            android:layout_width="170dp"
-            android:layout_height="220dp"
-            android:layout_margin="10dp"
-            android:background="#999387"
-            android:src="@drawable/aerodromo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="220dp"
+                android:layout_margin="10dp"
+                android:background="#999387"
+                android:src="@drawable/aerodromo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="15dp"
+                    android:text="Aerodromo de Interlagos"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:text="Criado em 2023, o Aerodromo de Interlagos possui cerca de 10.000m²
+                    com a capacidade máxima de 300 aviões de aeromodelismo em pouso e 150 em vôo."
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
 
