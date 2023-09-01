@@ -60,6 +60,12 @@
                     com a capacidade máxima de 300 aviões de aeromodelismo em pouso e 150 em vôo."
                     android:textAlignment="center" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/baseline_star_rate" />
+
+
             </LinearLayout>
 
         </LinearLayout>
