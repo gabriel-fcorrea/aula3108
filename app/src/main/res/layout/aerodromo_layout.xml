@@ -25,10 +25,12 @@
         android:clickable="true"
         android:focusable="true">
 
-        <ImageButton
+        <ImageView
             android:layout_width="170dp"
             android:layout_height="220dp"
             android:layout_margin="10dp"
+            android:background="#999387"
+            android:src="@drawable/aerodromo" />
 
 
     </com.google.android.material.card.MaterialCardView>
